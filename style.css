@@ -1,0 +1,164 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+header {
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Home Section */
+#home {
+    height: 100vh;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+#home .home-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#home .home-content p {
+    font-size: 1.2rem;
+}
+
+/* About Me Section */
+#about {
+    padding: 50px;
+    background: #e2f2f9;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Skills Section */
+#skills {
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.skills-box {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.skill {
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.skill p {
+    font-size: 1.2rem;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color: #d8f7d7;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.project p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Certificates Section */
+#certificates {
+    padding: 50px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+#certificates h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#certificates ul {
+    list-style: none;
+}
+
+#certificates ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
